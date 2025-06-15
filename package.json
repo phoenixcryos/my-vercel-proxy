@@ -4,14 +4,18 @@
   "description": "A simple Node.js proxy server for Vercel deployment.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", // This is what Vercel will use
-    "dev": "node index.js"    // For local development
+    "start": "node index.js",
+    "dev": "node index.js"
   },
-  "keywords": ["proxy", "vercel", "node"],
+  "keywords": [
+    "proxy",
+    "vercel",
+    "node"
+  ],
   "author": "<Your Name>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2", // Use actual installed versions
-    "http-proxy-middleware": "^2.0.6" // Use actual installed versions
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
   }
 }
